@@ -1,0 +1,61 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header > img {
+    width: 100%;
+    height: 30vh;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+main h1, h2, p{
+    margin: 10px;
+}
+
+main ul li {
+    list-style-image: url("../img/check2.png");
+    width: 90%;
+    margin-left: 35px;
+    padding: 5px;
+    
+}
+main .p2 {
+    font-size: 150%;
+}
+
+
+aside {
+    border-top: 5px solid blue;
+    margin: 50px auto 50px auto;
+    width: 90%;
+    
+}
+
+aside form {
+    margin-top: 50px;
+}
+
+input[type="radio"] {
+    transform: scale(1.5);
+    margin-left: 10px;
+}
+
+label {
+    font-size: 20px;
+    padding: 5px;
+    margin: 5px;
+    
+}
+
+
+footer {
+    background-image: linear-gradient(pink, purple);
+    height: 20vh;
+}
