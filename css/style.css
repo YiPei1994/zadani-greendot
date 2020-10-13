@@ -32,14 +32,15 @@ main .p2 {
 
 
 aside {
-    border-top: 5px solid blue;
-    margin: 50px auto 50px auto;
     width: 90%;
-    
+    margin: 0 auto 0 auto;
 }
 
 aside form {
-    margin-top: 50px;
+    margin-top:50px;
+    padding-top: 50px;
+    border-top: 5px solid blue;
+
 }
 
 input[type="radio"] {
