@@ -20,7 +20,7 @@ main h1, h2, p{
 }
 
 main ul li {
-    list-style-image: url("../img/check2.png");
+    list-style-image: url("../img/check.png");
     width: 90%;
     margin-left: 35px;
     padding: 5px;
