@@ -1,0 +1,52 @@
+@import "./layouts";
+
+header {
+    img {
+        height: 30vh;
+        width: 100%;
+    }
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    h1, h2, p {
+        margin-left: 10;
+        padding: 10px;
+    }
+    li {
+    list-style-image: url("../img/check.png");
+    width: 90%;
+    margin-left: 35px;
+    padding: 5px;
+    }
+    .p2 {
+        font-size: 150%;
+    }
+}
+
+aside {
+    width: 90%;
+    margin: auto;
+    form {
+        margin-top:50px;
+    padding-top: 50px;
+    border-top: 5px solid blue;
+    }
+    input[type="radio"] {
+        transform: scale(1.5);
+        margin-left: 10px;
+    }
+    
+    label {
+        font-size: 20px;
+        padding: 5px;
+        margin: 5px;
+        
+    }
+}
+
+footer {
+    background-image: linear-gradient(pink, purple);
+    height: 20vh;
+}
